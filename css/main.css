@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+  }
+
+
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+    .MainContainer{
+         width:100%;
+         height: 100%;
+         margin:auto;
+    }
+
+    .Header {
+        width: 100%;
+        height: 60px;
+        position:fixed;
+        background: black;
+    }
+
+    .Main{
+        height:calc(100% - 120px);
+        position:relative;
+        top:60px;
+        max-width: 1140px;
+        margin:0 auto;
+    }
+
+    .Main-1{
+        width:calc(50% - 2px);
+        height:100%;
+        display:inline-block;
+    }
+
+    .Main-2{
+        background: darkolivegreen;
+        border: 1px solid brown;
+        width: 98%;
+        width:calc(100% - 2px);
+        height:33.33%;
+    }
+
+    .Main-3{
+        background: darkgoldenrod;
+        border: 1px solid brown;
+        width:calc(100% - 2px);
+        height:49.8%;
+    }
+
+    .footer{
+        position: fixed;
+        bottom: 0;
+        height: 60px;
+        background: chocolate;
+        width:100%;
+    }
